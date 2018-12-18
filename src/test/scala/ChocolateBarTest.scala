@@ -9,7 +9,7 @@ class ChocolateBarTest extends Specification {
   }
   "breakChocolate(4, 7)" should {
     "return 27" in {
-      ChocolateBar.breakChocolate(5, 5) must_=== (27)
+      ChocolateBar.breakChocolate(4, 7) must_=== (27)
     }
   }
 }
