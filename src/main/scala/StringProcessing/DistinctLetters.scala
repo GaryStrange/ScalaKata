@@ -1,5 +1,5 @@
 package StringProcessing
 
 object DistinctLetters {
-  def OnlyDistinct(s:String) = ""
+  def OnlyDistinct(s:String) = s.distinct
 }
